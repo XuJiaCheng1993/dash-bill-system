@@ -1,0 +1,597 @@
+{
+  "id": "4478404",
+  "name": "uv-ui",
+  "font_family": "custom-icon",
+  "css_prefix_text": "custom-icon-",
+  "description": "用于uv-ui组件的自定义图表",
+  "glyphs": [
+    {
+      "icon_id": "1132458",
+      "name": "支付渠道",
+      "font_class": "zhifuqudao",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "39261546",
+      "name": "结算渠道",
+      "font_class": "jiesuanqudao",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "903843",
+      "name": "ZDZT-退款",
+      "font_class": "billstatus-tuikuan",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "1086298",
+      "name": "ZDZT-正常",
+      "font_class": "billstatus-zhengchang",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "17476108",
+      "name": "ZDLX-E00房屋消费",
+      "font_class": "fangwuxiaofei",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "14175922",
+      "name": "ZDLX-D00充值缴费",
+      "font_class": "chongzhijiaofei",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "5002437",
+      "name": "ZDLX-A03家居",
+      "font_class": "jiaju",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "15480090",
+      "name": "ZDLX-F03打车费",
+      "font_class": "dachefei",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "24103851",
+      "name": "ZDLX-I07饮料",
+      "font_class": "yinliao",
+      "unicode": "faa5",
+      "unicode_decimal": 64165
+    },
+    {
+      "icon_id": "614834",
+      "name": "ZDLX-D04电话费",
+      "font_class": "dianhuafei",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "9387173",
+      "name": "ZDLX-A02百货",
+      "font_class": "baihuo",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "9387174",
+      "name": "ZDLX-A00生活日用",
+      "font_class": "shenghuoriyong",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "9387211",
+      "name": "ZDLX-B03住宿",
+      "font_class": "zhusu",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "679783",
+      "name": "ZDLX-I03晚餐",
+      "font_class": "wancan",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "679789",
+      "name": "ZDLX-I04午餐",
+      "font_class": "wucan",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "679790",
+      "name": "早餐",
+      "font_class": "zaocan1",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "687391",
+      "name": "ZDLX-Z00其他",
+      "font_class": "qita",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "12502142",
+      "name": "ZF-美团支付",
+      "font_class": "meituanzhifu2",
+      "unicode": "e79b",
+      "unicode_decimal": 59291
+    },
+    {
+      "icon_id": "9885666",
+      "name": "ZF-京东支付",
+      "font_class": "ziyuan",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "32805710",
+      "name": "ZF-抖音支付",
+      "font_class": "douyinzhifu",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "9306311",
+      "name": "ZF-微信支付",
+      "font_class": "weixinzhifu",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "9306316",
+      "name": "ZF-云闪付",
+      "font_class": "yunshanfu",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "16508939",
+      "name": "ZF-美团支付",
+      "font_class": "meituanzhifu",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "4243707",
+      "name": "Bank-中国银行",
+      "font_class": "zhongguoyinhang",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "4243711",
+      "name": "Bank-招商银行",
+      "font_class": "zhaoshangyinhang",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "4243715",
+      "name": "Bank-邮储银行",
+      "font_class": "youchuyinhang",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4243788",
+      "name": "Bank-农业银行",
+      "font_class": "nongyeyinhang",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "4243843",
+      "name": "Bank-交通银行",
+      "font_class": "jiaotongyinhang",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "4243854",
+      "name": "Bank-江苏常熟农村商业银行",
+      "font_class": "jiangsuchangshunongcunshangyeyinhang",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "4243924",
+      "name": "Bank-工商银行",
+      "font_class": "gongshangyinhang",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "10960248",
+      "name": "ZDLX-F00交通出行",
+      "font_class": "jiaotongchuxing",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "12412705",
+      "name": "ZDLX-H00服务消费",
+      "font_class": "fuwuxiaofei",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "7791035",
+      "name": "ZDLX-B00娱乐消费",
+      "font_class": "yulexiaofei",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "21112915",
+      "name": "ZDLX-C00社交应酬",
+      "font_class": "shejiaoyingchou",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "27021316",
+      "name": "ZDLX-G04汽车用品",
+      "font_class": "qicheyongpin",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "28923874",
+      "name": "ZDLX-D06充电费",
+      "font_class": "chongdianfei",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1041",
+      "name": "ZDLX-A06电子",
+      "font_class": "dianzi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5132",
+      "name": "ZDLX-A04电器",
+      "font_class": "dianqi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "77156",
+      "name": "ZF-微信钱包",
+      "font_class": "weixinqianbao",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "145459",
+      "name": "ZDLX-B04游戏",
+      "font_class": "youxi",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "511360",
+      "name": "ZDLX-H05礼庆",
+      "font_class": "liqing",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "765644",
+      "name": "ZDLX-A05药品",
+      "font_class": "yaopin",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "1001332",
+      "name": "ZDLX-F01公交地铁",
+      "font_class": "gongjiaoditie",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "2076355",
+      "name": "ZDLX-I00日常饮食",
+      "font_class": "richangyinshi",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    },
+    {
+      "icon_id": "2273056",
+      "name": "ZDLX-E01物业费",
+      "font_class": "wuyefei",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "2325383",
+      "name": "ZDLX-G01汽车保养",
+      "font_class": "qichebaoyang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3159107",
+      "name": "ZDLX-F02共享单车",
+      "font_class": "gongxiangdanche",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "3775187",
+      "name": "ZF-信用卡",
+      "font_class": "xinyongqia",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "3922148",
+      "name": "ZDLX-G06汽车保险",
+      "font_class": "qichebaoxian",
+      "unicode": "e875",
+      "unicode_decimal": 59509
+    },
+    {
+      "icon_id": "4243734",
+      "name": "Bank-苏州银行",
+      "font_class": "suzhouyinhang",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "4243856",
+      "name": "Bank-建设银行",
+      "font_class": "jiansheyinhang",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "4544057",
+      "name": "ZDLX-D07考试费",
+      "font_class": "kaoshifei",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "4838220",
+      "name": "ZDLX-B02门票",
+      "font_class": "menpiao",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5131646",
+      "name": "ZDLX-I05零食",
+      "font_class": "lingshi",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5212632",
+      "name": "ZDLX-I06水果",
+      "font_class": "shuiguo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5387624",
+      "name": "ZDLX-C04红包",
+      "font_class": "hongbao",
+      "unicode": "eb18",
+      "unicode_decimal": 60184
+    },
+    {
+      "icon_id": "5961393",
+      "name": "ZDLX-G00汽车消费",
+      "font_class": "qichexiaofei",
+      "unicode": "ec6d",
+      "unicode_decimal": 60525
+    },
+    {
+      "icon_id": "6346006",
+      "name": "ZF-现金",
+      "font_class": "xianjin",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "8363297",
+      "name": "ZDLX-E03房租",
+      "font_class": "fangzu",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "9306312",
+      "name": "ZF-支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "9591220",
+      "name": "ZDLX-H02课程",
+      "font_class": "kecheng",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9748104",
+      "name": "ZDLX-B01餐饮",
+      "font_class": "canyin",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "10040295",
+      "name": "ZDLX-H06洗衣",
+      "font_class": "xiyi",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10432346",
+      "name": "ZDLX-C05礼物",
+      "font_class": "liwu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "10487553",
+      "name": "ZDLX-H04快递",
+      "font_class": "kuaidi",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "11746059",
+      "name": "ZDLX-G02油费",
+      "font_class": "youfei",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11858522",
+      "name": "ZDLX-D03燃气",
+      "font_class": "ranqifei",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "12134588",
+      "name": "ZDLX-C03应酬",
+      "font_class": "yingchou",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "12257150",
+      "name": "ZDLX-D01水费",
+      "font_class": "shuifei",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "15686513",
+      "name": "ZDLX-D02电费",
+      "font_class": "dianfei",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "16328332",
+      "name": "ZDLX-I01早餐",
+      "font_class": "zaocan",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "18166528",
+      "name": "ZDLX-A01服装",
+      "font_class": "fuzhuang",
+      "unicode": "e8c7",
+      "unicode_decimal": 59591
+    },
+    {
+      "icon_id": "18267964",
+      "name": "ZDLX-H03医疗",
+      "font_class": "yiliao",
+      "unicode": "e99a",
+      "unicode_decimal": 59802
+    },
+    {
+      "icon_id": "18459445",
+      "name": "ZDLX-I04夜宵",
+      "font_class": "yexiao",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "18667149",
+      "name": "ZDLX-H01理发",
+      "font_class": "lifa",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "21243078",
+      "name": "ZDLX-D05互联网会员费",
+      "font_class": "hulianwanghuiyuanfei",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "21732482",
+      "name": "ZDLX-E02房贷",
+      "font_class": "fangdai",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "24928962",
+      "name": "ZDLX-C02探望",
+      "font_class": "tanwang",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "27000090",
+      "name": "ZDLX-G03停车费",
+      "font_class": "tingchefei",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "27876680",
+      "name": "VIP 会员 会员卡",
+      "font_class": "a-VIPhuiyuanhuiyuanka",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "28440271",
+      "name": "ZDLX-G05汽车修理",
+      "font_class": "qichexiuli",
+      "unicode": "e7a2",
+      "unicode_decimal": 59298
+    },
+    {
+      "icon_id": "29358694",
+      "name": "ZDLX-F04高速费",
+      "font_class": "gaosufei",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "31901060",
+      "name": "ZDLX-C01份子",
+      "font_class": "fenzi",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "34273118",
+      "name": "Bank-其他银行",
+      "font_class": "qitayinhang",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    }
+  ]
+}
