@@ -106,7 +106,7 @@ cd billdesksys
 pip install -r requirements.txt
 
 # pyinstall 打包程序
-pyinstall main.spec
+pyinstaller main.spec
 
 # 等打包程序结束，找到打包文件路径 dist/main/main.exe
 双击运行 main.exe
